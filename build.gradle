@@ -17,6 +17,11 @@ repositories {
 	mavenCentral()
 }
 
+bootJar {
+	archivesBaseName = 'aws-hello-world'
+	version = '1.0.0'
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'

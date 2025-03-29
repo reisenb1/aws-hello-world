@@ -1,4 +1,4 @@
-package com.awshelloworld.demo.controller;
+package com.awshelloworld.controller;
 
 
 import org.springframework.http.ResponseEntity;
